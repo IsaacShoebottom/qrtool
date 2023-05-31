@@ -1,0 +1,9 @@
+# Poetry Lock File
+poetry.lock
+
+# Poetry build files
+dist
+
+# Any image files
+*.png
+*.jpg

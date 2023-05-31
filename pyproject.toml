@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qrtool"
+version = "0.1.0"
+description = "QR Code CLI tool"
+authors = ["Isaac Shoebottom <ir.shoebottom@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+segno = "^1.5.2"
+click = "^8.1.3"
+
+[tool.poetry.scripts]
+qrtool = 'qrtool.cli:cli'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
